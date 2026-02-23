@@ -54,15 +54,11 @@ Sphinx를 살펴보며 알게 된 가장 중요한 개념은 **Builder** 패턴�
 
 이 결과물은 **POT (Portable Object Template)** 파일로 생성됩니다. 이 파일은 번역의 '뼈대' 역할을 합니다.
 
-&nbsp;
-
 ### **2. 번역 (Translation): POT → PO**
 
 : POT 템플릿을 기반으로 각 언어별 **PO (Portable Object)** 파일이 생성됩니다. 우리는 이 파일을 가지고, Weblate나 에디터에서 실제로 작업하게 됩니다.
 
 - *위치:* `doc/source/locale/ko_KR/LC_MESSAGES/`
-
-&nbsp;
 
 ### **3. 컴파일 및 렌더링 (Compilation): PO → MO → HTML**
 
